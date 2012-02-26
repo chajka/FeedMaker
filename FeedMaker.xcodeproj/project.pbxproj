@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D371FE114F9E71F008B6BBD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D371FE014F9E71F008B6BBD /* Cocoa.framework */; };
+		1D371FEB14F9E71F008B6BBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D371FE914F9E71F008B6BBD /* InfoPlist.strings */; };
+		1D371FED14F9E71F008B6BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D371FEC14F9E71F008B6BBD /* main.m */; };
+		1D371FF114F9E71F008B6BBD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D371FEF14F9E71F008B6BBD /* Credits.rtf */; };
+		1D371FF414F9E71F008B6BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D371FF314F9E71F008B6BBD /* AppDelegate.m */; };
+		1D371FF714F9E71F008B6BBD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D371FF514F9E71F008B6BBD /* MainMenu.xib */; };
+		1D371FFF14F9E71F008B6BBD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D371FFE14F9E71F008B6BBD /* SenTestingKit.framework */; };
+		1D37200014F9E71F008B6BBD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D371FE014F9E71F008B6BBD /* Cocoa.framework */; };
+		1D37200814F9E71F008B6BBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D37200614F9E71F008B6BBD /* InfoPlist.strings */; };
+		1D37200B14F9E71F008B6BBD /* FeedMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D37200A14F9E71F008B6BBD /* FeedMakerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D37200114F9E71F008B6BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D371FD314F9E71F008B6BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D371FDB14F9E71F008B6BBD;
+			remoteInfo = FeedMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D371FDC14F9E71F008B6BBD /* FeedMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D371FE014F9E71F008B6BBD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D371FE314F9E71F008B6BBD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D371FE414F9E71F008B6BBD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D371FE514F9E71F008B6BBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D371FE814F9E71F008B6BBD /* FeedMaker-Info.plist */ = {isa = PBXFileReference; path = "FeedMaker-Info.plist"; sourceTree = "<group>"; };
+		1D371FEA14F9E71F008B6BBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D371FEC14F9E71F008B6BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D371FEE14F9E71F008B6BBD /* FeedMaker-Prefix.pch */ = {isa = PBXFileReference; path = "FeedMaker-Prefix.pch"; sourceTree = "<group>"; };
+		1D371FF014F9E71F008B6BBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1D371FF214F9E71F008B6BBD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D371FF314F9E71F008B6BBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D371FF614F9E71F008B6BBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D371FFD14F9E71F008B6BBD /* FeedMakerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedMakerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D371FFE14F9E71F008B6BBD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D37200514F9E71F008B6BBD /* FeedMakerTests-Info.plist */ = {isa = PBXFileReference; path = "FeedMakerTests-Info.plist"; sourceTree = "<group>"; };
+		1D37200714F9E71F008B6BBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D37200914F9E71F008B6BBD /* FeedMakerTests.h */ = {isa = PBXFileReference; path = FeedMakerTests.h; sourceTree = "<group>"; };
+		1D37200A14F9E71F008B6BBD /* FeedMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedMakerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D371FD914F9E71F008B6BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D371FE114F9E71F008B6BBD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D371FF914F9E71F008B6BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D371FFF14F9E71F008B6BBD /* SenTestingKit.framework in Frameworks */,
+				1D37200014F9E71F008B6BBD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D371FD114F9E71F008B6BBD = {
+			isa = PBXGroup;
+			children = (
+				1D371FE614F9E71F008B6BBD /* FeedMaker */,
+				1D37200314F9E71F008B6BBD /* FeedMakerTests */,
+				1D371FDF14F9E71F008B6BBD /* Frameworks */,
+				1D371FDD14F9E71F008B6BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D371FDD14F9E71F008B6BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D371FDC14F9E71F008B6BBD /* FeedMaker.app */,
+				1D371FFD14F9E71F008B6BBD /* FeedMakerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D371FDF14F9E71F008B6BBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D371FE014F9E71F008B6BBD /* Cocoa.framework */,
+				1D371FFE14F9E71F008B6BBD /* SenTestingKit.framework */,
+				1D371FE214F9E71F008B6BBD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D371FE214F9E71F008B6BBD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D371FE314F9E71F008B6BBD /* AppKit.framework */,
+				1D371FE414F9E71F008B6BBD /* CoreData.framework */,
+				1D371FE514F9E71F008B6BBD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D371FE614F9E71F008B6BBD /* FeedMaker */ = {
+			isa = PBXGroup;
+			children = (
+				1D371FF214F9E71F008B6BBD /* AppDelegate.h */,
+				1D371FF314F9E71F008B6BBD /* AppDelegate.m */,
+				1D371FF514F9E71F008B6BBD /* MainMenu.xib */,
+				1D371FE714F9E71F008B6BBD /* Supporting Files */,
+			);
+			path = FeedMaker;
+			sourceTree = "<group>";
+		};
+		1D371FE714F9E71F008B6BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D371FE814F9E71F008B6BBD /* FeedMaker-Info.plist */,
+				1D371FE914F9E71F008B6BBD /* InfoPlist.strings */,
+				1D371FEC14F9E71F008B6BBD /* main.m */,
+				1D371FEE14F9E71F008B6BBD /* FeedMaker-Prefix.pch */,
+				1D371FEF14F9E71F008B6BBD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D37200314F9E71F008B6BBD /* FeedMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D37200914F9E71F008B6BBD /* FeedMakerTests.h */,
+				1D37200A14F9E71F008B6BBD /* FeedMakerTests.m */,
+				1D37200414F9E71F008B6BBD /* Supporting Files */,
+			);
+			path = FeedMakerTests;
+			sourceTree = "<group>";
+		};
+		1D37200414F9E71F008B6BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D37200514F9E71F008B6BBD /* FeedMakerTests-Info.plist */,
+				1D37200614F9E71F008B6BBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D371FDB14F9E71F008B6BBD /* FeedMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D37200E14F9E71F008B6BBD /* Build configuration list for PBXNativeTarget "FeedMaker" */;
+			buildPhases = (
+				1D371FD814F9E71F008B6BBD /* Sources */,
+				1D371FD914F9E71F008B6BBD /* Frameworks */,
+				1D371FDA14F9E71F008B6BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeedMaker;
+			productName = FeedMaker;
+			productReference = 1D371FDC14F9E71F008B6BBD /* FeedMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D371FFC14F9E71F008B6BBD /* FeedMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D37201114F9E71F008B6BBD /* Build configuration list for PBXNativeTarget "FeedMakerTests" */;
+			buildPhases = (
+				1D371FF814F9E71F008B6BBD /* Sources */,
+				1D371FF914F9E71F008B6BBD /* Frameworks */,
+				1D371FFA14F9E71F008B6BBD /* Resources */,
+				1D371FFB14F9E71F008B6BBD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D37200214F9E71F008B6BBD /* PBXTargetDependency */,
+			);
+			name = FeedMakerTests;
+			productName = FeedMakerTests;
+			productReference = 1D371FFD14F9E71F008B6BBD /* FeedMakerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D371FD314F9E71F008B6BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = iom;
+			};
+			buildConfigurationList = 1D371FD614F9E71F008B6BBD /* Build configuration list for PBXProject "FeedMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D371FD114F9E71F008B6BBD;
+			productRefGroup = 1D371FDD14F9E71F008B6BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D371FDB14F9E71F008B6BBD /* FeedMaker */,
+				1D371FFC14F9E71F008B6BBD /* FeedMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D371FDA14F9E71F008B6BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D371FEB14F9E71F008B6BBD /* InfoPlist.strings in Resources */,
+				1D371FF114F9E71F008B6BBD /* Credits.rtf in Resources */,
+				1D371FF714F9E71F008B6BBD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D371FFA14F9E71F008B6BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D37200814F9E71F008B6BBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D371FFB14F9E71F008B6BBD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D371FD814F9E71F008B6BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D371FED14F9E71F008B6BBD /* main.m in Sources */,
+				1D371FF414F9E71F008B6BBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D371FF814F9E71F008B6BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D37200B14F9E71F008B6BBD /* FeedMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D37200214F9E71F008B6BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D371FDB14F9E71F008B6BBD /* FeedMaker */;
+			targetProxy = 1D37200114F9E71F008B6BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D371FE914F9E71F008B6BBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D371FEA14F9E71F008B6BBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D371FEF14F9E71F008B6BBD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D371FF014F9E71F008B6BBD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1D371FF514F9E71F008B6BBD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D371FF614F9E71F008B6BBD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1D37200614F9E71F008B6BBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D37200714F9E71F008B6BBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D37200C14F9E71F008B6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D37200D14F9E71F008B6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D37200F14F9E71F008B6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeedMaker/FeedMaker-Prefix.pch";
+				INFOPLIST_FILE = "FeedMaker/FeedMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D37201014F9E71F008B6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeedMaker/FeedMaker-Prefix.pch";
+				INFOPLIST_FILE = "FeedMaker/FeedMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D37201214F9E71F008B6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FeedMaker.app/Contents/MacOS/FeedMaker";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeedMaker/FeedMaker-Prefix.pch";
+				INFOPLIST_FILE = "FeedMakerTests/FeedMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1D37201314F9E71F008B6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FeedMaker.app/Contents/MacOS/FeedMaker";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeedMaker/FeedMaker-Prefix.pch";
+				INFOPLIST_FILE = "FeedMakerTests/FeedMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D371FD614F9E71F008B6BBD /* Build configuration list for PBXProject "FeedMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D37200C14F9E71F008B6BBD /* Debug */,
+				1D37200D14F9E71F008B6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D37200E14F9E71F008B6BBD /* Build configuration list for PBXNativeTarget "FeedMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D37200F14F9E71F008B6BBD /* Debug */,
+				1D37201014F9E71F008B6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D37201114F9E71F008B6BBD /* Build configuration list for PBXNativeTarget "FeedMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D37201214F9E71F008B6BBD /* Debug */,
+				1D37201314F9E71F008B6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D371FD314F9E71F008B6BBD /* Project object */;
+}
